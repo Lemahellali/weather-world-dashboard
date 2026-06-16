@@ -28,8 +28,9 @@ st.dataframe(filtered_df)
 fig1 = px.bar(df, x="City", y="Temperature", title="Temperature by City")
 st.plotly_chart(fig1)
 
-#fig2 = px.bar(df, x="city", y="humidity", title="Humidity by City")
+#fig2 = px.bar(df, x="City", y="Humidity", title="Humidity by City")
 #st.plotly_chart(fig2)
 
-#fig3 = px.scatter(df, x="temperature", y="humidity", color="city", title="Temperature vs Humidity")
+#fig3 = px.scatter(df, x="Temperature", y="Humidity", color="City",
+                  #title="Temperature vs Humidity")
 #st.plotly_chart(fig3)
